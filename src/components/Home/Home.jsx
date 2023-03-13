@@ -47,7 +47,20 @@ export const Home = (props) => {
                 </form>
                 <br/>
                 <br/>
-                insert tables here
+                    <table className="search-table">
+                    <tr>
+                        <th>Document Name</th>
+                        <th>University</th>
+                        <th>Course</th>
+                        <th>Download</th>
+                    </tr>
+                    <tr>
+                        <td>CMPT 474 - Lecture 1 Notes</td>
+                        <td>Simon Fraser University</td>
+                        <td>CMPT 474</td>
+                        <td><a className='download-button'>Download</a></td>
+                    </tr>
+                    </table>
             </div>
 
         </div>
