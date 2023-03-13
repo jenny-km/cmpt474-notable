@@ -3,8 +3,6 @@ import './Upload.css';
 import Navbar from '../Navbar/Navbar';
 
 
-
-
 export const Upload = (props) => {
     const[email, setEmail] = useState('');
     const[password, setPassword] = useState('');

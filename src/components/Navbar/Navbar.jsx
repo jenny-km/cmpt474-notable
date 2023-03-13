@@ -8,7 +8,7 @@ function Navbar(){
                 <nav className="logo-container">
                  <img src='/images/notable-logo.png'  height="50"/>
                  <ul className='nav-menu'>
-                    <li className='nav-list-item active'><a className='nav-item hover-underline-animation' href="/home">Home</a></li>
+                    <li className='nav-list-item '><a className='nav-item hover-underline-animation' href="/home">Home</a></li>
                     <li className='nav-list-item '><a className='nav-item hover-underline-animation' href="/upload">Upload</a></li>
                     <li className='nav-list-item '><a className='nav-item hover-underline-animation' href="/profile">Profile</a></li>
                     <li className='nav-list-item '><a className='nav-item hover-underline-animation' href="/logout">Log Out</a></li>
