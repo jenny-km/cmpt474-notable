@@ -23,10 +23,10 @@ function App() {
   }
   return (
     <div>
-      <Home/>
-      {/* {
+      {/* <Home/> */}
+      {
         currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />
-      } */}
+      }
     
     </div>
   );
