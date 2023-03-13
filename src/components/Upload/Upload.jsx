@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar';
 
 
 export const Upload = (props) => {
-    const[title, setTitle] = useState('');
+    const[name, setName] = useState('');
     const[university, setUniversity] = useState('');
     const[course, setCourse] = useState('');
     const[selectedFile, setSelectedFile] = useState('');
@@ -21,9 +21,9 @@ export const Upload = (props) => {
                 <form className="upload-form" onSubmit={handleSubmit}>
                     <div className="flex-container">
                     <div className="flex-child">
-                        <label className="upload-labels" for="title">Document Title:</label>
+                        <label className="upload-labels" for="name">Document Name:</label>
                         <br/>
-                        <input value={title} onChange={(e)=> setTitle(e.target.value)} type="text" id="title" className="upload-input"/>
+                        <input value={name} onChange={(e)=> setName(e.target.value)} type="text" id="name" className="upload-input"/>
                         <br/>
                         <br/>
                         <label className="upload-labels" for="university">University:</label>
