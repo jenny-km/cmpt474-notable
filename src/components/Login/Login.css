@@ -113,5 +113,10 @@ input[type=email], select {
     color: #0065e1;
   }
 
+  .to-home{
+    text-decoration: none;
+    color: white;
+  }
+
 
 

@@ -41,10 +41,11 @@ function Register(props){
                 </form>
                 <div className="sign-up-redirect">
                         <div className="header3-register">
-                            <h4 >Already have an account?</h4>
+                            <h4 >Already have an account? &nbsp;</h4>
                         </div>
                         <div className="log-in-redirect-button-container">
-                            <button onClick={()=> props.onFormSwitch('login')} className="log-in-redirect-button">Log In</button>
+                            <a className='log-in-redirect-button' href="/">Log In</a>
+                           
                         </div>
                     </div> 
                 </div>

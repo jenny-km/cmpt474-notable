@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import './Login.css';
 
 export const Login = (props) => {
+
     const[email, setEmail] = useState('');
     const[password, setPassword] = useState('');
 
@@ -34,14 +35,14 @@ export const Login = (props) => {
                     <br/>
                     <input value={password} onChange={(e)=> setPassword(e.target.value)} type="password" placeholder="Password"/>
                     <br/>
-                    <button type="submit">Log In</button>
+                    <button type="submit"><a className="to-home" href="/home">Log In</a></button>
                 </form>
                 <div className="sign-up-redirect">
                         <div className="header3">
-                            <h4 >Don't have an account?</h4>
+                            <h4 >Don't have an account? &nbsp;</h4>
                         </div>
                         <div className="sign-up-redirect-button-container">
-                            <button onClick={()=>props.onFormSwitch('register')} className="sign-up-redirect-button">Sign Up</button>
+                        <a className='sign-up-redirect-button' href="/register">Sign Up</a>
                         </div>
                     </div> 
                 </div>

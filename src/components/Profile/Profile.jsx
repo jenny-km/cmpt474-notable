@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import './Home.css';
+import './Profile.css';
 import Navbar from '../Navbar/Navbar';
 
 
 
 
-export const Home = (props) => {
+export const Profile = (props) => {
     const[email, setEmail] = useState('');
     const[password, setPassword] = useState('');
 
@@ -20,7 +20,7 @@ export const Home = (props) => {
             {/* top bar */}
             <Navbar/>
             <div>
-                
+                Profile (in construction)
                 
         
             </div>
@@ -28,4 +28,4 @@ export const Home = (props) => {
         </div>
     )
 }
-export default Home;
+export default Profile;
